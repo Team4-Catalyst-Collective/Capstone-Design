@@ -26,11 +26,23 @@
     }
     
     .image:first-child {
-      margin-right: 300px;
+      margin-right: 10%;
     }
     
     .image:last-child {
-      margin-left: 300px;
+      margin-left: 10%;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .image:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      
+      .image:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+      }
     }
   </style>
 </head>
